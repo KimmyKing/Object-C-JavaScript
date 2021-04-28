@@ -7,15 +7,12 @@
 
 #import "ViewController.h"
 #import <WebKit/WebKit.h>
-#import "ChartView.h"
 
 @interface ViewController ()<WKUIDelegate, WKScriptMessageHandler>
 
 @property (strong, nonatomic)UIButton *button;
 
 @property (strong, nonatomic)WKWebView *webview;
-
-@property (strong, nonatomic)ChartView *chartView;
 
 @end
 
@@ -59,13 +56,6 @@
     }
 }
 
-
-- (ChartView *)chartView {
-    if (!_chartView) {
-        _chartView = [[ChartView alloc] initWithFrame:CGRectMake(0, 100, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.width)];
-    }
-    return _chartView;
-}
 
 - (WKWebView *)webview {
     if (!_webview) {

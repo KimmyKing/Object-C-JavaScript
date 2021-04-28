@@ -16,7 +16,6 @@
 		C7FEE7292635A67000C8BC98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FEE7282635A67000C8BC98 /* main.m */; };
 		C7FEE73B2635A7D000C8BC98 /* JSDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FEE73A2635A7D000C8BC98 /* JSDemo.m */; };
 		C7FEE73F2635AB5A00C8BC98 /* JSDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = C7FEE73E2635AB5A00C8BC98 /* JSDemo.html */; };
-		C7FEE75A2638556300C8BC98 /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FEE7592638556300C8BC98 /* ChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +34,6 @@
 		C7FEE7392635A7D000C8BC98 /* JSDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDemo.h; sourceTree = "<group>"; };
 		C7FEE73A2635A7D000C8BC98 /* JSDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDemo.m; sourceTree = "<group>"; };
 		C7FEE73E2635AB5A00C8BC98 /* JSDemo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = JSDemo.html; sourceTree = "<group>"; };
-		C7FEE7582638556300C8BC98 /* ChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
-		C7FEE7592638556300C8BC98 /* ChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +74,6 @@
 				C7FEE71A2635A66E00C8BC98 /* SceneDelegate.m */,
 				C7FEE71C2635A66E00C8BC98 /* ViewController.h */,
 				C7FEE71D2635A66E00C8BC98 /* ViewController.m */,
-				C7FEE7582638556300C8BC98 /* ChartView.h */,
-				C7FEE7592638556300C8BC98 /* ChartView.m */,
 				C7FEE71F2635A66E00C8BC98 /* Main.storyboard */,
 				C7FEE7222635A67000C8BC98 /* Assets.xcassets */,
 				C7FEE7242635A67000C8BC98 /* LaunchScreen.storyboard */,
@@ -164,7 +159,6 @@
 				C7FEE7292635A67000C8BC98 /* main.m in Sources */,
 				C7FEE73B2635A7D000C8BC98 /* JSDemo.m in Sources */,
 				C7FEE71B2635A66E00C8BC98 /* SceneDelegate.m in Sources */,
-				C7FEE75A2638556300C8BC98 /* ChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
