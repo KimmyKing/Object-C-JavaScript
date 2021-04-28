@@ -1,0 +1,15 @@
+<input type="button" name="" value="调用oc方法" onclick="ocAlert()" style="background: red">
+<br/>
+
+<script type="text/javascript">
+    function jsAlert(msg) {
+        window.alert(msg);
+    }
+    
+    function ocAlert(){
+<!--        window.alert("JS调用OC");-->
+        window.webkit.messageHandlers.ocAlert.postMessage({
+            "body": "buttonActionMessage"
+        });
+    }
+</script>
