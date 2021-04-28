@@ -14,7 +14,6 @@
 		C7FEE7232635A67000C8BC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FEE7222635A67000C8BC98 /* Assets.xcassets */; };
 		C7FEE7262635A67000C8BC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FEE7242635A67000C8BC98 /* LaunchScreen.storyboard */; };
 		C7FEE7292635A67000C8BC98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FEE7282635A67000C8BC98 /* main.m */; };
-		C7FEE73B2635A7D000C8BC98 /* JSDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FEE73A2635A7D000C8BC98 /* JSDemo.m */; };
 		C7FEE73F2635AB5A00C8BC98 /* JSDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = C7FEE73E2635AB5A00C8BC98 /* JSDemo.html */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +30,6 @@
 		C7FEE7252635A67000C8BC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7FEE7272635A67000C8BC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7FEE7282635A67000C8BC98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C7FEE7392635A7D000C8BC98 /* JSDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDemo.h; sourceTree = "<group>"; };
-		C7FEE73A2635A7D000C8BC98 /* JSDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDemo.m; sourceTree = "<group>"; };
 		C7FEE73E2635AB5A00C8BC98 /* JSDemo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = JSDemo.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,8 +63,6 @@
 		C7FEE7152635A66E00C8BC98 /* OCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C7FEE7392635A7D000C8BC98 /* JSDemo.h */,
-				C7FEE73A2635A7D000C8BC98 /* JSDemo.m */,
 				C7FEE7162635A66E00C8BC98 /* AppDelegate.h */,
 				C7FEE7172635A66E00C8BC98 /* AppDelegate.m */,
 				C7FEE7192635A66E00C8BC98 /* SceneDelegate.h */,
@@ -157,7 +152,6 @@
 				C7FEE71E2635A66E00C8BC98 /* ViewController.m in Sources */,
 				C7FEE7182635A66E00C8BC98 /* AppDelegate.m in Sources */,
 				C7FEE7292635A67000C8BC98 /* main.m in Sources */,
-				C7FEE73B2635A7D000C8BC98 /* JSDemo.m in Sources */,
 				C7FEE71B2635A66E00C8BC98 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
